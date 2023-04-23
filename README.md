@@ -110,6 +110,14 @@ So, two files will be generated per script type based on the score, one with 4 o
 
 ### Option 8 - Generate word count comparison spreadsheet.
 This option generates a comprehensive word count comparison spreadsheet which can be extremely useful for a detailed corpus linguistics analysis.
+<br>
+Running option 8 will generate a spreadsheet at below location:
+```
+to/option-8/<Wordcount_Comparison_<current date>_<current time>>.xslx
+```
+Here,<br>
+Current date will be formatted as `DD-MM-YYYY`<br>.
+Current time will be formatted as `HH-mm-SS`<br>.
 
 ## Contact
 If you have any issue running this tool and you couldn't resolve with this documentation,
