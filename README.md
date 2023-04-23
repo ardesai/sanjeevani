@@ -21,13 +21,12 @@ Input files needs to be in Microsoft Word format and with one of the below name:
 ```
 <script type><4+/-4> standardised scores.doc(x)
 ```
-e.g. ASA-4 standardised scores.docx
 <br>
 Individual stories has to have a title with below format:
 ```
 <story initials>-<score>-<paritcipant id>
 ```
-Here anything between `<>` braces are variables and needs to be replaced with appropriate values.
+Here, anything between `<>` braces are variables and needs to be replaced with appropriate values.
 This needs to be followed by the actual story text and it must have a line break after the story text ends.
 Also, make sure there are no line breaks anywhere else in the file.
 
@@ -113,11 +112,11 @@ This option generates a comprehensive word count comparison spreadsheet which ca
 <br>
 Running option 8 will generate a spreadsheet at below location:
 ```
-to/option-8/<Wordcount_Comparison_<current date>_<current time>>.xslx
+to/option-8/<Wordcount_Comparison_<current date>_<current time>.xslx
 ```
 Here,<br>
-Current date will be formatted as `DD-MM-YYYY`<br>.
-Current time will be formatted as `HH-mm-SS`<br>.
+Current date will be formatted as `DD-MM-YYYY`.<br>
+Current time will be formatted as `HH-mm-SS`.<br>
 
 ## Contact
 If you have any issue running this tool and you couldn't resolve with this documentation,
