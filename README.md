@@ -10,26 +10,16 @@ Sanjeevani word comes from a medicinal herb featured in the Hindu epic Ramayana.
 [Install Java](https://www.java.com/en/download/help/download_options.html)
 
 ### Download
-- Navigate to the [zip file](files/sanjeevani.zip).
-- Click the 'Download' button.
-- Unzip
+- Download the [zip file](files/sanjeevani.zip).
+- Unzip the file on your `Desktop`.
 
 ### Preparing Input
-- Unzip the file on your `Desktop`.
 - Copy your input word files into `/from` folder.
 
-## Run
-- Double click on sanjeevani.jar file (use open with Java if not configured).
-- Below window should appear on your screen:
-<img src="images/sanjeevani.png" alt="sanjeevani window" width="400">
-- Select one of the option from 1 to 8 and click on `Run Selected Option` button.
-- To clear logs on the `Logs` box, click on `Clear Logs` button.
-- To exit click on X button on the top left window (For Windows and Linux - top right of the window).
-
-## Input
+#### Input format
 Input files needs to be in Microsoft Word format and with one of the below name:
 ```
-<ASA/MSA><4+/-4> standardised scores.doc(x)
+<script type><4+/-4> standardised scores.doc(x)
 ```
 e.g. ASA-4 standardised scores.docx
 <br>
@@ -38,15 +28,88 @@ Individual stories has to have a title with below format:
 <story initials>-<score>-<paritcipant id>
 ```
 Here anything between `<>` braces are variables and needs to be replaced with appropriate values.
+This needs to be followed by the actual story text and it must have a line break after the story text ends.
+Also, make sure there are no line breaks anywhere else in the file.
+
+## Run
+- Double click on sanjeevani.jar file (use open with Java if not configured).
+- Below window should appear on your screen:<br>
+<img src="images/sanjeevani.png" alt="sanjeevani window" width="400">
+- Select one of the option from 1 to 8 and click on `Run Selected Option` button.
+- To clear logs on the `Logs` box, click on `Clear Logs` button.
+- To exit click on X button on the top left window (For Windows and Linux - top right of the window).
+
 ## Options
 ### Option 1 - File per input Word document.
+This will convert the individual input word files into text files at below location:
+```
+to/option-1/
+``` 
+
 ### Option 2 - File per story.
+This will convert individual stories within the input word files into individual text files per story at below location:
+```
+to/option-2/<script type>/<story initials>/<story number>.txt
+``` 
+So, if you have total of 50 story combined with all input word files then it will produce 50 text files as output files (one per story).
+
 ### Option 3 - File per participant.
+This will convert the input word files into individual text files per participants at below location:
+```
+to/option-3/<paritcipant id>-<total word count>.txt
+``` 
+Here, one file will be generated per participant and all the story belong to that participant will be included in that file.
+ File name will also be suffixed with total word count of the stories from that file.
+
 ### Option 4 - File per story type by score/range.
+This will convert the input word files into individual text files per story type by score range at below location:
+```
+to/option-4/<script type>/<story initials>/<story initials>-<score range>-<total word count>.txt
+``` 
+Here, score range can have below values:
+```
+1_1.99
+2_2.99
+3_3.99
+4_4.99
+5_5.99
+6_6.99
+7
+```
+So, one file will be generated with the above score range per story type and
+ the file name will also be suffixed with total word count of the stories from that file.
+
 ### Option 5 - File per script type by score/range.
+Similar to Option 4 however file will be generated per script type at below location:
+```
+to/option-5/<script type>/<script type>-<score range>-<total word count>.txt
+``` 
+So, one file will be generated with the above score range per script type and
+ the file name will also be suffixed with total word count of the stories from that file.
+
 ### Option 6 - File per secure base script knowledge.
+This will convert the input word files into two text files based on secure base script knowledge at below location:
+```
+to/option-6/<secure base script knowledge>-<total word count>.txt
+```
+Here, secure base script knowledge can have below values:
+```
+4_or_more
+less_than_4
+```
+So, two files will be generated based on the score, one with 4 or more and the other with less than 4 score and
+ the file name will also be suffixed with total word count of the stories from that file.
+
 ### Option 7 - File per script type by secure base script knowledge.
+Similar to option 6 however it also takes script type into the consideration and generate file at below location:
+```
+to/option-7/<script type>/<script type>-<secure base script knowledge>-<total word count>.txt
+```
+So, two files will be generated per script type based on the score, one with 4 or more and the other with less than 4 score and
+ the file name will also be suffixed with total word count of the stories from that file.
+
 ### Option 8 - Generate word count comparison spreadsheet.
+This option generates a comprehensive word count comparison spreadsheet which can be extremely useful for a detailed corpus linguistics analysis.
 
 ## Contact
 If you have any issue running this tool and you couldn't resolve with this documentation,
