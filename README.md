@@ -22,9 +22,9 @@ Sanjeevani word comes from a medicinal herb featured in the Hindu epic Ramayana.
 - Double click on sanjeevani.jar file (use open with Java if not configured).
 - Below window should appear on your screen:
 <br>
-![Sanjeevani](images/sanjeevani.png)
-- Select one of the option from 1 to 8 and click on 'Run Selected Option' button.
-- To clear logs on the 'Logs' box, click on 'Clear Logs' button.
+![Sanjeevani](images/sanjeevani.png | width=400)
+- Select one of the option from 1 to 8 and click on `Run Selected Option` button.
+- To clear logs on the `Logs` box, click on `Clear Logs` button.
 - To exit click on X button on the top left window (For Windows and Linux - top right of the window).
 
 ## Input
@@ -33,6 +33,7 @@ Input files needs to be in Microsoft Word format and with one of the below name:
 <ASA/MSA><4+/-4> standardised scores.doc(x)
 ```
 e.g. ASA-4 standardised scores.docx
+<br>
 Individual stories has to have a title with below format:
 ```
 <story initials>-<score>-<paritcipant id>
@@ -54,4 +55,4 @@ If you have any issue running this tool and you couldn't resolve with this docum
  you can email the author [here](mailto:leabhidesai@gmail.com).
 
 ## License
-Copyright © 2017, [Abhi Desai](https://github.com/ardesai/)
+Copyright © 2023, [Abhi Desai](https://github.com/ardesai/)
