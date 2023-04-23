@@ -10,7 +10,8 @@ Sanjeevani word comes from a medicinal herb featured in the Hindu epic Ramayana.
 [Install Java](https://www.java.com/en/download/help/download_options.html)
 
 ### Download
-- Download the zip file
+- Navigate to the [zip file](files/sanjeevani.zip).
+- Click the 'Download' button.
 - Unzip
 
 ### Preparing Input
