@@ -36,13 +36,13 @@ Also, make sure there are no line breaks anywhere else in the file.
 <img src="images/sanjeevani.png" alt="sanjeevani window" width="400">
 - Select one of the option from 1 to 8 and click on `Run Selected Option` button.
 - To clear logs on the `Logs` box, click on `Clear Logs` button.
-- To exit click on X button on the top left window (For Windows and Linux - top right of the window).
+- To exit, click on `x` button on the top left window (For Windows and Linux - top right of the window).
 
 ## Options
 ### Option 1 - File per input Word document.
 This will convert the individual input word files into text files at below location:
 ```
-to/option-1/
+to/option-1/<original file name>.txt
 ``` 
 
 ### Option 2 - File per story.
@@ -55,7 +55,7 @@ So, if you have total of 50 story combined with all input word files then it wil
 ### Option 3 - File per participant.
 This will convert the input word files into individual text files per participants at below location:
 ```
-to/option-3/<paritcipant id>-<total word count>.txt
+to/option-3/<participant id>-<total word count>.txt
 ``` 
 Here, one file will be generated per participant and all the story belong to that participant will be included in that file.
  File name will also be suffixed with total word count of the stories from that file.
@@ -117,6 +117,19 @@ to/option-8/<Wordcount_Comparison_<current date>_<current time>.xslx
 Here,<br>
 Current date will be formatted as `DD-MM-YYYY`.<br>
 Current time will be formatted as `HH-mm-SS`.<br>
+
+### Exclusion words
+These are list of words that you would like to omit in the word count exercise.
+ You will have to create one text file per story type with the list of exclusion words for that story.
+ Make sure you have set of words per line and name the file with the initials of the story type with `.txt` extension.
+ Hence, the path should look like:
+```
+from/prompt/<story initials>.txt
+```
+<br>
+The output spreadsheet will generate two sets of tabs.
+ One with various word counts for individual stories for individual participants and
+ the other with the list of unique words for individual script types with and without exclusion words.
 
 ## Contact
 If you have any issue running this tool and you couldn't resolve with this documentation,
