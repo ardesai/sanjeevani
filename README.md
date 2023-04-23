@@ -21,7 +21,6 @@ Sanjeevani word comes from a medicinal herb featured in the Hindu epic Ramayana.
 ## Run
 - Double click on sanjeevani.jar file (use open with Java if not configured).
 - Below window should appear on your screen:
-<br>
 <img src="images/sanjeevani.png" alt="sanjeevani window" width="400">
 - Select one of the option from 1 to 8 and click on `Run Selected Option` button.
 - To clear logs on the `Logs` box, click on `Clear Logs` button.
