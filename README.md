@@ -9,10 +9,6 @@ Sanjeevani word comes from a medicinal herb featured in the Hindu epic Ramayana.
 ### Prerequisite
 [Install Java](https://www.java.com/en/download/help/download_options.html)
 
-### Download
-- Download the [zip file](files/sanjeevani.zip).
-- Unzip the file on your `Desktop`.
-
 ### Preparing Input
 - Copy your input word files into `/from` folder.
 
@@ -122,6 +118,8 @@ Current time will be formatted as `HH-mm-SS`.<br>
 These are list of words that you would like to omit in the word count exercise.
  You will have to create one text file per story type with the list of exclusion words for that story.
  Make sure you have set of words per line and name the file with the initials of the story type with `.txt` extension.
+ Also, you can have more than one word for an exclusion word e.g. friday night can be one exclusion word
+ and in that case have the full word in a single line.
  Hence, the path should look like:
 ```
 from/prompt/<story initials>.txt
@@ -142,14 +140,26 @@ Two sheets will get generated per script type, one with the score less than 4 an
  1. Average Word Types - average of all the word types for that participant
  2. Average Word Tokens - average of all the word tokens for that participant
  
-An example output spreadsheet for `less than 4`:
+An example output sheet for word counts for `less than 4`:
 <img src="images/tab-1.png" alt="tab-1" width="900">
-An example output spreadsheet for `4 and more`:
+An example output sheet for word counts for `4 and more`:
 <img src="images/tab-2.png" alt="tab-1" width="900">
 
 
 #### Word Lists
-*IN PROGRESS*
+Two sheets will get generated, one with score less than 4 and the other with 4 and more.
+ `less than 4` sheet headers' colour is set to blue and `4 and more` headers' is set to green.
+ This sheet will have individual row for unique words from the given input stories.
+ It will generate four columns per script type:
+ 1. Word where `exclusion words` are considered.
+ 2. Word count for the above.
+ 3. Word where `exclusion words` are included and highlighted in yellow.
+ 3. Word count for the above.
+
+An example output spreadsheet for word lists for `less than 4`:
+<img src="images/tab-6.png" alt="tab-6" width="900">
+An example output spreadsheet for word lists for `4 and more`:
+<img src="images/tab-5.png" alt="tab-5" width="900">
 
 ## Contact
 If you have any issue running this tool and you couldn't resolve with this documentation,
