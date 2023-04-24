@@ -142,9 +142,9 @@ Two sheets will get generated per script type, one with the score less than 4 an
  1. Average Word Types - average of all the word types for that participant
  2. Average Word Tokens - average of all the word tokens for that participant
  
-An example output spreadsheet for `less than 4` should look like:
+An example output spreadsheet for `less than 4`:
 <img src="images/tab-1.png" alt="tab-1" width="900">
-An example output spreadsheet for `4 and more` should look like:
+An example output spreadsheet for `4 and more`:
 <img src="images/tab-2.png" alt="tab-1" width="900">
 
 
