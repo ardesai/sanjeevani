@@ -112,13 +112,13 @@ This option generates a comprehensive word count comparison spreadsheet which ca
 <br>
 Running option 8 will generate a spreadsheet at below location:
 ```
-to/option-8/<Wordcount_Comparison_<current date>_<current time>.xslx
+to/option-8/Wordcount_Comparison_<current date>_<current time>.xslx
 ```
 Here,<br>
 Current date will be formatted as `DD-MM-YYYY`.<br>
 Current time will be formatted as `HH-mm-SS`.<br>
 
-### Exclusion words
+#### Exclusion words
 These are list of words that you would like to omit in the word count exercise.
  You will have to create one text file per story type with the list of exclusion words for that story.
  Make sure you have set of words per line and name the file with the initials of the story type with `.txt` extension.
@@ -126,10 +126,29 @@ These are list of words that you would like to omit in the word count exercise.
 ```
 from/prompt/<story initials>.txt
 ```
-<br>
 The output spreadsheet will generate two sets of tabs.
- One with various word counts for individual stories for individual participants and
+ One with various word counts for individual stories per participants, and
  the other with the list of unique words for individual script types with and without exclusion words.
+ 
+#### Word Counts
+Two sheets will get generated per script type, one with the score less than 4 and the other with 4 and more.
+ `less than 4` sheet headers' colour is set to blue and `4 and more` headers' is set to green.
+ This sheet will have individual row for a participant and three columns for an individual story type.
+ 1. Score
+ 2. Word Types - total **unique** words
+ 3. Word Tokens - total words
+ 
+ This sheet will also have two additional columns in the end:
+ 1. Average Word Types - average of all the word types for that participant
+ 2. Average Word Tokens - average of all the word tokens for that participant
+ 
+An example output spreadsheet should look like:
+<img src="images/tab-1.png" alt="tab-1" width="900">
+<img src="images/tab-2.png" alt="tab-1" width="900">
+
+
+#### Word Lists
+
 
 ## Contact
 If you have any issue running this tool and you couldn't resolve with this documentation,
