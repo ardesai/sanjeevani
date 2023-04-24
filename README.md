@@ -148,7 +148,7 @@ An example output spreadsheet should look like:
 
 
 #### Word Lists
-
+IN PROGRESS
 
 ## Contact
 If you have any issue running this tool and you couldn't resolve with this documentation,
