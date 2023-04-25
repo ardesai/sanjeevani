@@ -1,7 +1,7 @@
 # Sanjeevani
 A tool to convert word documents into text documents as well as useful word counting features.
 
-[Introduction](#introduction) | [Setup](#setup) | [Run](#run) | [Options](#options) | [Run](#run) | [Contact](#contact) | [License](#license)
+[Introduction](#introduction)  |  [Setup](#setup)  |  [Run](#run)  |  [Options](#options)  |  [Run](#run)  |  [Contact](#contact)  |  [License](#license)
 
 ## Introduction
 This tool is to assist analysis of text data. It produces  text files and spreadsheets which can help to analyse the original data more efficiently.<br/>
@@ -116,7 +116,7 @@ Here,<br>
 Current date will be formatted as `DD-MM-YYYY`.<br>
 Current time will be formatted as `HH-mm-SS`.<br>
 
-Please note that any matching performed as a part of word counting or listing exercise is case-insensitive,
+> Please note that any matching performed as a part of word counting or listing exercise is case-insensitive,
  this mean treating or interpreting upper and lowercase letters as being the same.
 <br>
 For example, `Doctor`, `doctor` and `DOCTOR` will be treated the same.
@@ -167,7 +167,7 @@ An example output spreadsheet for word lists for `less than 4`:
 An example output spreadsheet for word lists for `4 and more`:
 <img src="images/tab-5.png" alt="tab-5" width="900">
 
-Please note following list of characters will be ignored for matching and calculating the `exclusion words`:
+> Please note following list of characters will be ignored for matching and calculating the `exclusion words`:
  ```
  ’
  ’s
@@ -183,7 +183,7 @@ Please note following list of characters will be ignored for matching and calcul
  :
  ;
  ```
-For example, if `doctor` is in the list of `exclusion words`, `doctor's` or `(doctor)` will be considered while calculating total Word lists.
+> For example, if `doctor` is in the list of `exclusion words`, `doctor's` or `(doctor)` will be considered while calculating total Word lists.
 
 ## Contact
 If you have any issue running this tool, and you couldn't resolve with this documentation,
