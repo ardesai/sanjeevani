@@ -153,9 +153,9 @@ Two sheets will get generated per script type, one with the score less than 4 an
  2. Average Word Tokens - average of all the word tokens for that participant
  
 An example output sheet for word counts for `less than 4`:
-<img src="images/tab-1.png" alt="tab-1" width="900">
+<img src="images/tab-1.png" alt="tab-1" width="960">
 An example output sheet for word counts for `4 and more`:
-<img src="images/tab-2.png" alt="tab-1" width="900">
+<img src="images/tab-2.png" alt="tab-1" width="960">
 
 #### Word Lists
 Two sheets will get generated, one with score less than 4 and the other with 4 and more.
@@ -168,9 +168,9 @@ Two sheets will get generated, one with score less than 4 and the other with 4 a
  3. Word count for the above.
 
 An example output spreadsheet for word lists for `less than 4`:
-<img src="images/tab-6.png" alt="tab-6" width="950">
+<img src="images/tab-6.png" alt="tab-6" width="960">
 An example output spreadsheet for word lists for `4 and more`:
-<img src="images/tab-5.png" alt="tab-5" width="900">
+<img src="images/tab-5.png" alt="tab-5" width="960">
 
 > Please note following list of characters will be ignored for matching and calculating the `exclusion words`:
  ```
