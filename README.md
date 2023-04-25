@@ -168,7 +168,7 @@ Two sheets will get generated, one with score less than 4 and the other with 4 a
  3. Word count for the above.
 
 An example output spreadsheet for word lists for `less than 4`:
-<img src="images/tab-6.png" alt="tab-6" width="900">
+<img src="images/tab-6.png" alt="tab-6" width="950">
 An example output spreadsheet for word lists for `4 and more`:
 <img src="images/tab-5.png" alt="tab-5" width="900">
 
