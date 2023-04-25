@@ -1,7 +1,12 @@
 # Sanjeevani
 A tool to convert word documents into text documents as well as useful word counting features.
 
-[Introduction](#introduction)  |  [Setup](#setup)  |  [Run](#run)  |  [Options](#options)  |  [Run](#run)  |  [Contact](#contact)  |  [License](#license)
+- [Introduction](#introduction)
+- [Setup](#setup)
+- [Run](#run)
+- [Options](#options)
+- [Contact](#contact)
+- [License](#license)
 
 ## Introduction
 This tool is to assist analysis of text data. It produces  text files and spreadsheets which can help to analyse the original data more efficiently.<br/>
