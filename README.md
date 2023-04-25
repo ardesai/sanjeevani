@@ -114,6 +114,11 @@ Here,<br>
 Current date will be formatted as `DD-MM-YYYY`.<br>
 Current time will be formatted as `HH-mm-SS`.<br>
 
+Please note that any matching performed as a part of word counting or listing exercise is case-insensitive,
+ this mean treating or interpreting upper and lowercase letters as being the same.
+<br>
+For example, `Doctor`, `doctor` and `DOCTOR` will be treated the same.
+
 #### Exclusion words
 These are list of words that you would like to omit in the word count exercise.
  You will have to create one text file per story type with the list of exclusion words for that story.
@@ -145,13 +150,12 @@ An example output sheet for word counts for `less than 4`:
 An example output sheet for word counts for `4 and more`:
 <img src="images/tab-2.png" alt="tab-1" width="900">
 
-
 #### Word Lists
 Two sheets will get generated, one with score less than 4 and the other with 4 and more.
  `less than 4` sheet headers' colour is set to blue and `4 and more` headers' is set to green.
  This sheet will have individual row for unique words from the given input stories.
  It will generate four columns per script type:
- 1. Word where `exclusion words` are considered.
+ 1. Word where `exclusion words` are excluded.
  2. Word count for the above.
  3. Word where `exclusion words` are included and highlighted in yellow.
  3. Word count for the above.
@@ -161,10 +165,28 @@ An example output spreadsheet for word lists for `less than 4`:
 An example output spreadsheet for word lists for `4 and more`:
 <img src="images/tab-5.png" alt="tab-5" width="900">
 
+Please note following list of characters will be ignored for matching and calculating the `exclusion words`:
+ ```
+ ’
+ ’s
+ '
+ 's
+ .
+ ,
+ ?
+ !
+ "
+ (
+ )
+ :
+ ;
+ ```
+For example, if `doctor` is in the list of `exclusion words`, `doctor's` or `(doctor)` will be considered while calculating total Word lists.
+
 ## Contact
-If you have any issue running this tool and you couldn't resolve with this documentation,
+If you have any issue running this tool, and you couldn't resolve with this documentation,
  or you would like to discuss any business about this tool,
- you can email the author [here](mailto:leabhidesai@gmail.com).
+ you can email [the author](mailto:leabhidesai@gmail.com).
 
 ## License
 Copyright © 2023, [Abhi Desai](https://github.com/ardesai/)
