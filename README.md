@@ -192,4 +192,4 @@ If you have any issue running this tool, and you couldn't resolve with this docu
  you can email [the author](mailto:leabhidesai@gmail.com).
 
 ## License
-Copyright © 2023, [Abhi Desai](https://github.com/ardesai/)
+Copyright © 2023, [Abhi Desai](https://github.com/ardesai/) and Lisa Gentle.
